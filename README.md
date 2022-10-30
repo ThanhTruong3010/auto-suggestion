@@ -36,12 +36,12 @@ $ npm build
 
 ## Question 1
 
-- I sent about 10 mins to do it.
+- I spent about 10 mins to do it.
   https://jsfiddle.net/6fevy8t7/67/
 
 ## Question 2
 
-- I sent about 5 mins to do it.
+- I spent about 5 mins to do it.
   https://jsfiddle.net/qzt6ejmg/27/
 
 ## Apply feature to any Search box(Question 3)
