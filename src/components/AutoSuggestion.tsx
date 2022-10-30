@@ -26,6 +26,7 @@ function AutoSuggestion({
   classNameInput = "",
   classNameSearchResult = "",
 }: IProps) {
+  const ch = JSON.parse(localStorage.getItem("characterDisplayDefault") || "1");
   const [search, setSearch] = useState("");
 
   const onHandleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -33,7 +34,11 @@ function AutoSuggestion({
       localStorage.getItem("characterDisplayDefault") || "1"
     );
     setSearch(e.target.value);
-    if (e.target.value?.length === +ch) onSearch(e.target.value);
+    if (e.target.value?.length >= +ch) {
+      onSearch(e.target.value);
+    } else {
+      onSearch("");
+    }
   };
 
   const settingFromLocalStorage = JSON.parse(

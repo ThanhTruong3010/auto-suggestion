@@ -10,6 +10,8 @@ function NumberCharacterDisplay() {
     );
     if (ch === undefined) {
       setValue(characterDisplayDefault);
+    } else {
+      setValue(ch);
     }
   }, []);
 

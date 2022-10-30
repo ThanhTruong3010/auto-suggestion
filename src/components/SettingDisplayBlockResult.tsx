@@ -37,7 +37,7 @@ function SettingDisplayBlockResult({ settings = settingsDefault }: IProps) {
       <div className="max-w-5xl w-full mt-10">
         <div className="block p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Display Suggestion Result
+            Seting Display Block Suggestion Result
           </h5>
           {settingState.map((item) => {
             return (
