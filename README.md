@@ -1,14 +1,16 @@
 # auto-suggestion
 
+## Video demo
+https://www.loom.com/share/2694c89b944e44c6bedbe111f519318f
+
+## Server demo
+https://aesthetic-zuccutto-3275a3.netlify.app/
+
 ## Installation
 
 ```bash
 $ yarn install
 ```
-
-## Server demo
-
-https://aesthetic-zuccutto-3275a3.netlify.app/
 
 ## Running the app
 
